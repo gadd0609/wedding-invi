@@ -1,17 +1,5 @@
 <template>
-    <form name="contact" netlify>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-    <form name="contact" method="POST" netlify>
-        <input type="hidden" name="form-name" value="contact" />
+    <form>
       <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div class="border-b border-gray-900/10 pb-12">
           <h2 class="text-base/7 font-semibold text-gray-900">RSVP</h2>
@@ -26,13 +14,11 @@
             <div class="sm:col-span-3">
               <label for="first-name" class="block text-sm/6 font-medium text-gray-900">Nombre completo </label>
               <div class="mt-2">
-                <input type="text" name="nombre" id="first-name"  />
                 <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
               </div>
             </div>
   
             <div class="sm:col-span-3">
-            <input type="text" name="numero-invitados" id="last-name" />
               <label for="last-name" class="block text-sm/6 font-medium text-gray-900">numero de invitados</label>
               <div class="mt-2">
                 <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
@@ -40,7 +26,6 @@
             </div>
   
             <div class="sm:col-span-4">
-                <input type="text" name="whatsapp" id="email"/>
               <label for="email" class="block text-sm/6 font-medium text-gray-900">whatsapp</label>
               <div class="mt-2">
                 <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
@@ -60,20 +45,6 @@
             <fieldset>
               <legend class="text-sm/6 font-semibold text-gray-900">Asistencia</legend>
               <p class="mt-1 text-sm/6 text-gray-600">Confírmanos si formarás parte de nuestra boda</p>
-              <input 
-              id="si" 
-              name="asistencia" 
-              value="si"
-              type="radio" 
-
-            />
-            <input
-              id="no"
-              name="asistencia"
-              value="no"
-              type="radio"
-
-            />
               <div class="mt-6 space-y-6">
                 <div class="flex items-center gap-x-3">
                   <input 

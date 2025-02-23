@@ -1,5 +1,5 @@
 <template>
-    <form>
+    <form name="contact" netlify>
       <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div class="border-b border-gray-900/10 pb-12">
           <h2 class="text-base/7 font-semibold text-gray-900">RSVP</h2>

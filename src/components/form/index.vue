@@ -1,6 +1,5 @@
 <template>
   <form 
-  netlify 
   name="rsvp"
   method="post"
   data-netlify="true"
@@ -19,23 +18,23 @@
   
       <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
         <div class="sm:col-span-3">
-          <label for="first-name" class="block text-sm/6 font-medium text-gray-900">Nombre completo </label>
+          <label for="name" class="block text-sm/6 font-medium text-gray-900">Nombre completo </label>
           <div class="mt-2">
-            <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+            <input type="text" name="name" id="name" autocomplete="given-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
           </div>
         </div>
   
         <div class="sm:col-span-3">
-          <label for="last-name" class="block text-sm/6 font-medium text-gray-900">numero de invitados</label>
+          <label for="guests" class="block text-sm/6 font-medium text-gray-900">numero de invitados</label>
           <div class="mt-2">
-            <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+            <input type="text" name="guests" id="guests" autocomplete="family-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
           </div>
         </div>
   
         <div class="sm:col-span-4">
-          <label for="email" class="block text-sm/6 font-medium text-gray-900">whatsapp</label>
+          <label for="number" class="block text-sm/6 font-medium text-gray-900">whatsapp</label>
           <div class="mt-2">
-            <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+            <input id="number" name="number" type="number" autocomplete="number" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
           </div>
         </div>
  
@@ -55,8 +54,8 @@
           <div class="mt-6 space-y-6">
             <div class="flex items-center gap-x-3">
               <input 
-                id="si" 
-                name="push-notifications" 
+                id="yes" 
+                name="yes" 
                 type="radio" checked="" 
                 class="relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden" />
               <label for="push-everything" class="block text-sm/6 font-medium text-gray-900">Si</label>
@@ -64,7 +63,7 @@
             <div class="flex items-center gap-x-3">
               <input
                 id="no"
-                name="push-notifications"
+                name="no"
                 type="radio"
                 class="relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden" />
               <label for="push-email" class="block text-sm/6 font-medium text-gray-900">No</label>

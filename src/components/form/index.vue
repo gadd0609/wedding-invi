@@ -1,5 +1,6 @@
 <template>
   <form 
+  netlify 
   name="rsvp"
   method="post"
   data-netlify="true"

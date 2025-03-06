@@ -8,6 +8,14 @@
   </head>
   <body>
     <div id="app"></div>
+    <form name="rsvp" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="number" name="guests" />
+      <input type="number" name="phone" />
+      <input type="radio" name="yes" />
+      <input type="radio" name="no" />
+      <textarea name="question"></textarea>
+    </form>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

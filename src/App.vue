@@ -1,7 +1,12 @@
 <template>
   <fiances-photos/>
   <gift-table-component/>
-  <form-component/>
+  <form-component
+    name="rsvp"
+    method="post"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+  />
 </template>
 
 <script>

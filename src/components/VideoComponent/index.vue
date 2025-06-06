@@ -5,7 +5,6 @@
         <source 
           src="https://drive.google.com/drive/shared-with-me?hl=es" 
           type="video/mp4">
-        Tu navegador no soporta el video.
       </video>
     </div>
   </div>

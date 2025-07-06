@@ -9,11 +9,11 @@
       </div>
 
       <div class="mt-8 text-center">
-        <div class="text-2xl sm:text-3xl text-[#b88b6a] font-[Dancing Script,cursive] tracking-widest mb-2">
+        <div class="text-2xl sm:text-3xl text-green-custom tracking-widest mb-2">
           25 DE NOVIEMBRE 2025
         </div>
-        <div class="text-xl sm:text-2xl text-[#b88b6a] font-[Dancing Script,cursive]">
-          Colima, Colima, Mex
+        <div class="text-xl sm:text-2xl text-brown-custom">
+          Cuauhtémoc, Colima, Mex
         </div>
       </div>
     </div>

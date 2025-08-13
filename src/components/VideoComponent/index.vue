@@ -3,7 +3,7 @@
     <div class="relative mx-auto max-w-4xl flex flex-col items-center">
       <video controls width="640">
         <source 
-          src="https://drive.google.com/drive/shared-with-me?hl=es" 
+          src="https://drive.google.com/file/d/1x5-ehPMVmwBMxzAuRaXiG-Y4p9P1--pb/view?usp=sharing" 
           type="video/mp4">
       </video>
     </div>

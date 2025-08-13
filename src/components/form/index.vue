@@ -52,9 +52,9 @@
           <div class="flex gap-8">
             <label class="flex items-center cursor-pointer">
               <input 
-                id="attendance"
+                id="yes"
                 type="radio" 
-                name="attendance" 
+                name="yes" 
                 value="yes" 
                 required
                 class="w-5 h-5 text-blue-custom bg-transparent border-2 border-gray-400 focus:ring-blue-custom focus:ring-2 mr-3" 
@@ -63,9 +63,9 @@
             </label>
             <label class="flex items-center cursor-pointer">
               <input 
-                id="attendance"
+                id="no"
                 type="radio" 
-                name="attendance" 
+                name="no" 
                 value="no"
                 class="w-5 h-5 text-blue-custom bg-transparent border-2 border-gray-400 focus:ring-blue-custom focus:ring-2 mr-3" 
               />

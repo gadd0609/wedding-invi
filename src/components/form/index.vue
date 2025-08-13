@@ -52,6 +52,7 @@
           <div class="flex gap-8">
             <label class="flex items-center cursor-pointer">
               <input 
+                id="attendance"
                 type="radio" 
                 name="attendance" 
                 value="yes" 
@@ -62,6 +63,7 @@
             </label>
             <label class="flex items-center cursor-pointer">
               <input 
+                id="attendance"
                 type="radio" 
                 name="attendance" 
                 value="no"

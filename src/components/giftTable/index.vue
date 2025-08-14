@@ -1,6 +1,9 @@
 <template>
   <div class="overflow-hidden bg-beige py-12 sm:py-12 text-center">
-    <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
+    <div 
+      class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" 
+      aria-hidden="true"
+    >
       <div class="aspect-1097/845 w-[68.5625rem] opacity-20"/>
     </div>
     <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">

@@ -4,10 +4,7 @@
       <h2 class="text-5xl sm:text-6xl text-center font-bold text-beige mb-4 drop-shadow-lg">
         Los novios
       </h2>
-      
-      <!-- Carrusel -->
       <div class="relative max-w-4xl mx-auto">
-        <!-- Contenedor de imágenes -->
         <div class="overflow-hidden rounded-2xl bg-gray-100">
           <div 
             class="flex transition-transform duration-500 ease-in-out"
@@ -27,7 +24,6 @@
           </div>
         </div>
 
-        <!-- Botones de navegación -->
         <button 
           @click="prevSlide"
           class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 rounded-full p-3 shadow-lg transition-all duration-200 hover:scale-110"
@@ -50,7 +46,6 @@
           </svg>
         </button>
 
-        <!-- Indicadores -->
         <div class="flex justify-center mt-6 space-x-2">
           <button
             v-for="(photo, index) in photos"
@@ -61,13 +56,11 @@
           ></button>
         </div>
 
-        <!-- Contador -->
         <div class="text-center mt-4 text-gray-600">
           {{ currentIndex + 1 }} / {{ photos.length }}
         </div>
       </div>
 
-      <!-- Thumbnails (opcional) -->
       <div class="mt-8 grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-9 gap-2 max-w-4xl mx-auto">
         <button
           v-for="(photo, index) in photos"

@@ -4,7 +4,7 @@ export default function useCarousel() {
   const currentIndex = ref(0)
   
   const photos = ref([
-    { src: '/src/assets/photos/DSC03087.jpg', alt: 'Foto de los novios 1' },
+    { src: 'https://drive.google.com/file/d/1Pvjy4lnj2QSmmaVVxyqcTcZTvF_XdDsP/view?usp=drive_link', alt: 'Foto de los novios 1' },
     { src: '/src/assets/photos/DSC03086.jpg', alt: 'Foto de los novios 2' },
     { src: '/src/assets/photos/DSC03268.jpg', alt: 'Foto de los novios 3' },
     { src: '/src/assets/photos/DSC03134.jpg', alt: 'Foto de los novios 4' },

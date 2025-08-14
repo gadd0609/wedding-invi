@@ -14,27 +14,28 @@
             Mesa de regalos
       </h2>
       <div class="mx-auto my-8 max-w-2xl">
-            <p class="mt-8 text-lg my-5 font-medium text-pretty text-brown-custom sm:text-xl/8">
+            <p class="text-xl mb-8 text-brown-custom sm:text-3xl text-beige">
                 Mesa de regalos Liverpool #51619150
             </p>
             <a 
-                href="#" 
+                href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51619150" 
+                target="_blank"
                 class="rounded-md border border-brown-custom px-5 py-2.5 text-md font-semibold text-brown-custom shadow-xs hover:border-white focus-visible:outline-2   focus-visible:outline-offset-2 focus-visible:outline-white"
             >
                 Ir a la mesa
             </a>
         </div>
-        <div class="mx-auto mt-20 max-w-2xl">
+        <div class="mx-auto mt-10 max-w-2xl">
             <h1 class="font-bold mb-5 text-3xl text-pretty text-brown-custom">
                 Cuenta para regalos
             </h1>
-            <h1 class="text-xl text-pretty text-brown-custom">
+             <h1 class="text-xl mb-4 text-brown-custom sm:text-3xl text-beige">
                 Gaddiel Alejandro Patino Morfin
             </h1>
-            <h1 class="text-xl text-pretty text-brown-custom">
-                Clabe: 11111111111111
+            <h1 class="text-xl mb-4 text-brown-custom sm:text-3xl text-beige">
+                Clabe: 012 180 01544721817 0
             </h1>
-            <h1 class="text-xl text-pretty text-brown-custom">
+            <h1 class="text-xl mb-4 text-brown-custom sm:text-3xl text-beige">
                 BBVA
             </h1>
         </div> 

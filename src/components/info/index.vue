@@ -1,13 +1,16 @@
 <template>
   <div class="bg-beige text-center p-6 sm:p-12">
     <div class="my-8">
-      <p class="text-3xl text-brown-custom sm:text-5xl text-beige">
+      <p class="text-3xl my-8 text-brown-custom sm:text-5xl text-beige">
+        LOS NOS NOVIOS
+      </p>
+      <p class="text-3xl text-brown-custom sm:text-4xl text-beige">
         Gaddiel Alejandro Patiño Morfín
       </p>
-      <p class="text-3xl text-brown-custom sm:text-5xl text-beige">
+      <p class="text-3xl text-brown-custom sm:text-4xl text-beige">
         &
       </p>
-      <p class="text-3xl text-brown-custom sm:text-5xl text-beige">
+      <p class="text-3xl text-brown-custom sm:text-4xl text-beige">
         Fernada Valeria Peralta Ramírez
       </p>
     </div>
@@ -22,10 +25,10 @@
       <p class="text-3xl my-8 text-brown-custom sm:text-5xl text-beige">
         PADRES DE LA NOVIA
       </p>
-      <p class="text-3xl text-brown-custom sm:text-5xl text-beige">
+      <p class="text-3xl text-brown-custom sm:text-4xl text-beige">
         Fernando Manuel Peralta Ramírez
       </p>
-      <p class="text-3xl text-brown-custom sm:text-5xl text-beige">
+      <p class="text-3xl text-brown-custom sm:text-4xl text-beige">
         Claudia Yolanda Ramírez Sánchez
       </p>
     </div>
@@ -40,10 +43,10 @@
       <p class="text-3xl my-8 text-brown-custom sm:text-5xl text-beige">
         PADRES DEL NOVIO
       </p>
-      <p class="text-3xl text-brown-custom sm:text-5xl text-beige">
+      <p class="text-3xl text-brown-custom sm:text-4xl text-beige">
         Enrique Alejandro Patiño Hernández
       </p>
-      <p class="text-3xl text-brown-custom sm:text-5xl text-beige">
+      <p class="text-3xl text-brown-custom sm:text-4xl text-beige">
         Claudia Morfin Lepe
       </p>
     </div>
@@ -55,22 +58,22 @@
       >
     </div>
     <div class="my-8">
-      <p class="text-3xl my-8 text-brown-custom sm:text-5xl text-beige">
+      <p class="text-3xl text-brown-custom sm:text-5xl text-beige">
         "Todo lo hizo hermoso en su tiempo."
       </p>
-      <h1 class="text-xl my-8 text-brown-custom sm:text-3xl text-beige">
-        Eclesiastes 3:11
+      <h1 class="text-xl mb-8 text-brown-custom sm:text-3xl text-beige">
+        - Eclesiastes 3:11
       </h1>
     </div>
     <div class="my-16">
       <p class="text-3xl my-8 text-brown-custom sm:text-5xl text-beige">
         ITINERARIO
       </p>
-      <p class="text-xl my-8 text-brown-custom sm:text-3xl text-beige">
+      <p class="text-xl text-brown-custom sm:text-3xl text-beige">
        CEREMONIA
       </p>
-      <p class="text-xl text-brown-custom sm:text-3xl text-beige">
-       5:00 PM
+      <p class="text-xl mb-8 text-brown-custom sm:text-3xl text-beige">
+        5:00 PM
       </p>
       <p class="text-xl mb-16 text-brown-custom sm:text-3xl text-beige">
        Hacienda de chiapa
@@ -92,10 +95,10 @@
         referrerpolicy="no-referrer-when-downgrade"
         class="rounded-md border border-brown-custom text-md shadow-xs"
       />
-      <p class="text-xl mt-16 mb-8 text-brown-custom sm:text-3xl text-beige">
+      <p class="text-xl mt-16 text-brown-custom sm:text-3xl text-beige">
        RECEPCIÓN
       </p>
-      <p class="text-xl text-brown-custom sm:text-3xl text-beige">
+      <p class="text-xl text-brown-custom mb-16 sm:text-3xl text-beige">
        6:00 PM
       </p>
       <p class="text-xl text-brown-custom sm:text-3xl text-beige">

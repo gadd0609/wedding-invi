@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-beige text-center p-6 sm:p-12">
+  <div class="bg-beige text-center p-6 sm:p-12 rounded-t-3xl shadow-2xl">
     <div class="my-8">
       <p class="text-3xl my-8 text-brown-custom sm:text-5xl text-beige">
         LOS NOS NOVIOS

@@ -1,9 +1,15 @@
 <template>
   <welcome-component/>
-  <video-component/>
-  <countdown-component/>
-  <fiances-photos/>
-  <info-component/>
+  <div class="bg-beige">
+    <video-component/>
+  </div>
+  <div class="bg-blue-custom">
+    <countdown-component/>
+    <fiances-photos/>
+  </div>
+  <div class="bg-orange-custom">
+    <info-component/>
+  </div>
   <gift-table-component/>
   <form-component
     name="rsvp"

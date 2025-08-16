@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-orange-custom flex items-center justify-center">
+  <div class="bg-orange-custom flex items-center justify-center rounded-t-3xl">
     <div class="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
 
       <div class="text-center mb-12">

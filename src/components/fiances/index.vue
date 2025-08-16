@@ -61,7 +61,7 @@
         </div>
       </div>
 
-      <div class="mt-8 grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-9 gap-2 max-w-4xl mx-auto">
+      <div class="mt-8 grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-6 gap-2 max-w-4xl mx-auto">
         <button
           v-for="(photo, index) in photos"
           :key="index"

@@ -108,6 +108,13 @@
        Garden party formal
       </p>
     </div>
+    <div class="justify-self-center mt-8">
+      <img 
+        class="sm:w-32 w-32 bg-beige" 
+        src="/public/haciendaLg.svg" 
+        alt="Flor derecha"
+      >
+    </div>
   </div>
 </template>
 

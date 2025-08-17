@@ -40,6 +40,17 @@
             </h1>
         </div> 
     </div>
+  <div class="py-10 flex justify-center items-center">
+    <img 
+      src="/flowers.svg" 
+      alt="photo.alt"
+      class="w-72 sm:w-96 mx-auto my-4"
+    />
+    <!--
+      Para hacer el color más fuerte, edita el archivo flowers.svg y cambia el valor de stroke o fill por un color más oscuro o saturado, por ejemplo: stroke="#4B5563" o fill="#4B5563".
+      Si necesitas ayuda con el SVG, dime el color que prefieres.
+    -->
+  </div>
     <div class="max-w-4xl mx-auto sm:py-16">
       <img 
         src="/photos/DSC03159.jpg" 

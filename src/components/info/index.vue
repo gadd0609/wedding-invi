@@ -2,7 +2,7 @@
   <div class="bg-beige text-center p-6 sm:p-12 rounded-t-3xl shadow-2xl">
     <div class="my-8">
       <p class="text-3xl my-8 text-brown-custom sm:text-5xl text-beige">
-        LOS NOS NOVIOS
+        LOS NOVIOS
       </p>
       <p class="text-3xl text-brown-custom sm:text-4xl text-beige">
         Gaddiel Alejandro Patiño Morfín

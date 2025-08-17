@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-hidden bg-beige py-12 sm:py-12 text-center">
+  <div class="overflow-hidden bg-beige pt-12 sm:pt-12 text-center">
     <div 
       class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" 
       aria-hidden="true"
@@ -39,6 +39,13 @@
                 BBVA
             </h1>
         </div> 
+    </div>
+    <div class="max-w-4xl mx-auto sm:py-16">
+      <img 
+        src="/photos/DSC03159.jpg" 
+        alt="photo.alt"
+        class="w-full object-cover overflow-hidden sm:rounded-2xl bg-gray-100"
+      />
     </div>
   </div>
 </template>

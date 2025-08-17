@@ -5,7 +5,6 @@
   </div>
   <div class="bg-green-custom">
     <countdown-component/>
-    <fiances-photos/>
   </div>
   <div class="bg-brown-custom">
     <info-component/>
@@ -17,6 +16,9 @@
     data-netlify="true"
     data-netlify-honeypot="bot-field"
   />
+  <div class="bg-green-custom">
+    <fiances-photos/>
+  </div>
 </template>
 
 <script>

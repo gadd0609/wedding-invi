@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-beige to-gray-800 flex items-center justify-center p-4">
+  <div class="min-h-screen bg-green-custom to-gray-800 flex items-center justify-center p-4">
     <div class="bg-beige rounded-lg shadow-2xl max-w-lg w-full p-8 text-center">
       <!-- Header -->
       <div class="mb-8">
@@ -40,11 +40,9 @@
             id="name" 
             required
             autocomplete="given-name"
-            class="w-full border-b-2 border-gray-400 bg-transparent pb-2 focus:border-green-custom focus:outline-none transition-colors duration-300" 
+            class="w-full border-b-2 border-green-custom bg-transparent pb-2 focus:border-brown-custom focus:outline-none transition-colors duration-300" 
           />
         </div>
-
-                <!-- Attendance Radio Buttons -->
         <div class="text-left">
           <label class="block text-gray-700 font-semibold mb-3">
             ¿Podrás asistir? 
@@ -57,7 +55,7 @@
                 name="yes" 
                 value="yes" 
                 required
-                class="w-5 h-5 text-green-custom bg-transparent border-2 border-gray-400 focus:ring-green-custom focus:ring-2 mr-3" 
+                class="w-5 h-5 text-green-custom bg-transparent border-2 border-green-custom focus:ring-green-custom focus:ring-2 mr-3" 
               />
               <span class="text-gray-700 text-lg">Sí</span>
             </label>
@@ -67,14 +65,12 @@
                 type="radio" 
                 name="no" 
                 value="no"
-                class="w-5 h-5 text-green-custom bg-transparent border-2 border-gray-400 focus:ring-green-custom focus:ring-2 mr-3" 
+                class="w-5 h-5 text-green-custom bg-transparent border-2 border-green-custom focus:ring-green-custom focus:ring-2 mr-3" 
               />
               <span class="text-gray-700 text-lg">No</span>
             </label>
           </div>
         </div>
-
-        <!-- Number of guests -->
         <div class="text-left">
           <label class="block text-gray-700 font-semibold mb-3">
             Número de invitados
@@ -84,11 +80,9 @@
             name="guests" 
             id="guests" 
             autocomplete="family-name"
-            class="w-full border-b-2 border-gray-400 bg-transparent pb-2 focus:border-green-custom focus:outline-none transition-colors duration-300" 
+            class="w-full border-b-2 border-green-custom bg-transparent pb-2 focus:border-brown-custom focus:outline-none transition-colors duration-300" 
           />
         </div>
-
-        <!-- Submit Button -->
         <div class="pt-6">
           <button 
             type="submit" 
@@ -117,8 +111,8 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
-  background-color: var(--blue-custom, #3b82f6);
-  border-color: var(--blue-custom, #3b82f6);
+  background-color: var(--green-custom);
+  border-color: (--green-custom);
   position: relative;
 }
 

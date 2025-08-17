@@ -13,6 +13,14 @@
       <h2 class="text-3xl text-green-custom sm:text-7xl">
         Mesa de regalos
       </h2>
+      <blockquote class="relative border-s-4 border-gray-200 ps-4 sm:ps-6 dark:border-neutral-700">
+        <p class="text-xl my-8 text-beige sm:text-3xl text-green-custom">
+          <em>
+              El mayor obsequio para nosotros es contar con su compañía en este día tan especial.
+              Si además desean bendecirnos con un detalle, ponemos a su disposición nuestra mesa de regalos o, si lo prefieren con un depósito en la siguiente cuenta
+          </em>
+        </p>
+      </blockquote>
       <div class="bg-green-custom mx-auto my-10 max-w-2xl bg-beige rounded-lg shadow-[0_8px_40px_8px_rgba(0,0,0,0.25)] max-w-lg w-full p-8 text-center">
         <p class="text-xl mb-8 text-beige sm:text-3xl text-beige">
           Mesa de regalos Liverpool #51619150
@@ -25,14 +33,6 @@
           Ir a la mesa
         </a>
       </div>
-      <blockquote class="relative border-s-4 border-gray-200 ps-4 sm:ps-6 dark:border-neutral-700">
-        <p class="text-xl mb-8 text-beige sm:text-3xl text-green-custom">
-          <em>
-              El mayor obsequio para nosotros es contar con su compañía en este día tan especial.
-              Si además desean bendecirnos con un detalle, ponemos a su disposición nuestra mesa de regalos o, si lo prefieren con un depósito en la siguiente cuenta
-          </em>
-        </p>
-      </blockquote>
       <div class="bg-green-custom mx-auto my-10 max-w-2xl bg-beige rounded-lg shadow-[0_8px_40px_8px_rgba(0,0,0,0.25)] max-w-lg w-full p-8 text-center">
               <h1 class="font-bold mb-5 text-3xl text-pretty text-beige">
                   Cuenta para regalos
@@ -50,7 +50,7 @@
       </div>
     <div class="py-10 flex justify-center items-center">
       <img 
-        src="/flowers.svg" 
+        src="/flowers1.png" 
         alt="photo.alt"
         class="w-72 sm:w-96 mx-auto my-4"
       />

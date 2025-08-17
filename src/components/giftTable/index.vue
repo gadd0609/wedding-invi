@@ -11,46 +11,50 @@
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <h2 class="text-3xl text-green-custom sm:text-7xl">
-            Mesa de regalos
+        Mesa de regalos
       </h2>
-      <div class="bg-green-custom mx-auto my-10 max-w-2xl bg-beige rounded-lg shadow-2xl max-w-lg w-full p-8 text-center">
-            <p class="text-xl mb-8 text-beige sm:text-3xl text-beige">
-                Mesa de regalos Liverpool #51619150
-            </p>
-            <a 
-                href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51619150" 
-                target="_blank"
-                class="rounded-md border border-beige px-5 py-2.5 text-md font-semibold text-beige shadow-xs hover:border-white focus-visible:outline-2   focus-visible:outline-offset-2 focus-visible:outline-white"
-            >
-                Ir a la mesa
-            </a>
-        </div>
-        <div class="bg-green-custom mx-auto my-10 max-w-2xl bg-beige rounded-lg shadow-2xl max-w-lg w-full p-8 text-center">
-            <h1 class="font-bold mb-5 text-3xl text-pretty text-beige">
-                Cuenta para regalos
-            </h1>
-             <h1 class="text-xl mb-4 text-beige sm:text-3xl text-beige">
-                Gaddiel Alejandro Patino Morfin
-            </h1>
-            <h1 class="text-xl mb-4 text-beige sm:text-3xl text-beige">
-                Clabe: 012 180 01544721817 0
-            </h1>
-            <h1 class="text-xl mb-4 text-beige sm:text-3xl text-beige">
-                BBVA
-            </h1>
-        </div> 
+      <div class="bg-green-custom mx-auto my-10 max-w-2xl bg-beige rounded-lg shadow-[0_8px_40px_8px_rgba(0,0,0,0.25)] max-w-lg w-full p-8 text-center">
+        <p class="text-xl mb-8 text-beige sm:text-3xl text-beige">
+          Mesa de regalos Liverpool #51619150
+        </p>
+        <a 
+          href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51619150" 
+          target="_blank"
+          class="rounded-md border border-beige px-5 py-2.5 text-md font-semibold text-beige shadow-xs hover:border-white focus-visible:outline-2   focus-visible:outline-offset-2 focus-visible:outline-white"
+        >
+          Ir a la mesa
+        </a>
+      </div>
+      <blockquote class="relative border-s-4 border-gray-200 ps-4 sm:ps-6 dark:border-neutral-700">
+        <p class="text-xl mb-8 text-beige sm:text-3xl text-green-custom">
+          <em>
+              El mayor obsequio para nosotros es contar con su compañía en este día tan especial.
+              Si además desean bendecirnos con un detalle, ponemos a su disposición nuestra mesa de regalos o, si lo prefieren con un depósito en la siguiente cuenta
+          </em>
+        </p>
+      </blockquote>
+      <div class="bg-green-custom mx-auto my-10 max-w-2xl bg-beige rounded-lg shadow-[0_8px_40px_8px_rgba(0,0,0,0.25)] max-w-lg w-full p-8 text-center">
+              <h1 class="font-bold mb-5 text-3xl text-pretty text-beige">
+                  Cuenta para regalos
+              </h1>
+              <h1 class="text-xl mb-4 text-beige sm:text-3xl text-beige">
+                  Gaddiel Alejandro Patino Morfin
+              </h1>
+              <h1 class="text-xl mb-4 text-beige sm:text-3xl text-beige">
+                  Clabe: 012 180 01544721817 0
+              </h1>
+              <h1 class="text-xl mb-4 text-beige sm:text-3xl text-beige">
+                  BBVA
+              </h1>
+          </div> 
+      </div>
+    <div class="py-10 flex justify-center items-center">
+      <img 
+        src="/flowers.svg" 
+        alt="photo.alt"
+        class="w-72 sm:w-96 mx-auto my-4"
+      />
     </div>
-  <div class="py-10 flex justify-center items-center">
-    <img 
-      src="/flowers.svg" 
-      alt="photo.alt"
-      class="w-72 sm:w-96 mx-auto my-4"
-    />
-    <!--
-      Para hacer el color más fuerte, edita el archivo flowers.svg y cambia el valor de stroke o fill por un color más oscuro o saturado, por ejemplo: stroke="#4B5563" o fill="#4B5563".
-      Si necesitas ayuda con el SVG, dime el color que prefieres.
-    -->
-  </div>
     <div class="max-w-4xl mx-auto sm:py-16">
       <img 
         src="/photos/DSC03159.jpg" 

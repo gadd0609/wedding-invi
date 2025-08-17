@@ -20,7 +20,7 @@
       </div>
       <div class="mt-8 text-center">
         <h1 class="text-2xl sm:text-3xl text-green-custom tracking-widest mb-2">
-          25 DE NOVIEMBRE 2025
+          15 DE NOVIEMBRE 2025
         </h1>
         <h1 class="text-xl sm:text-2xl text-brown-custom">
           Cuauhtémoc, Colima, Mex

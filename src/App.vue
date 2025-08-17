@@ -3,11 +3,11 @@
   <div class="bg-beige">
     <video-component/>
   </div>
-  <div class="bg-blue-custom">
+  <div class="bg-green-custom">
     <countdown-component/>
     <fiances-photos/>
   </div>
-  <div class="bg-orange-custom">
+  <div class="bg-brown-custom">
     <info-component/>
   </div>
   <gift-table-component/>

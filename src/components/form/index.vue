@@ -3,7 +3,7 @@
     <div class="bg-beige rounded-lg shadow-2xl max-w-lg w-full p-8 text-center">
       <!-- Header -->
       <div class="mb-8">
-        <h1 class="text-4xl font-bold text-blue-custom mb-6 tracking-wide">
+        <h1 class="text-4xl font-bold text-green-custom mb-6 tracking-wide">
           RSVP
         </h1>
         <p class="text-gray-700 text-lg leading-relaxed mb-2">
@@ -40,7 +40,7 @@
             id="name" 
             required
             autocomplete="given-name"
-            class="w-full border-b-2 border-gray-400 bg-transparent pb-2 focus:border-blue-custom focus:outline-none transition-colors duration-300" 
+            class="w-full border-b-2 border-gray-400 bg-transparent pb-2 focus:border-green-custom focus:outline-none transition-colors duration-300" 
           />
         </div>
 
@@ -57,7 +57,7 @@
                 name="yes" 
                 value="yes" 
                 required
-                class="w-5 h-5 text-blue-custom bg-transparent border-2 border-gray-400 focus:ring-blue-custom focus:ring-2 mr-3" 
+                class="w-5 h-5 text-green-custom bg-transparent border-2 border-gray-400 focus:ring-green-custom focus:ring-2 mr-3" 
               />
               <span class="text-gray-700 text-lg">Sí</span>
             </label>
@@ -67,7 +67,7 @@
                 type="radio" 
                 name="no" 
                 value="no"
-                class="w-5 h-5 text-blue-custom bg-transparent border-2 border-gray-400 focus:ring-blue-custom focus:ring-2 mr-3" 
+                class="w-5 h-5 text-green-custom bg-transparent border-2 border-gray-400 focus:ring-green-custom focus:ring-2 mr-3" 
               />
               <span class="text-gray-700 text-lg">No</span>
             </label>
@@ -84,7 +84,7 @@
             name="guests" 
             id="guests" 
             autocomplete="family-name"
-            class="w-full border-b-2 border-gray-400 bg-transparent pb-2 focus:border-blue-custom focus:outline-none transition-colors duration-300" 
+            class="w-full border-b-2 border-gray-400 bg-transparent pb-2 focus:border-green-custom focus:outline-none transition-colors duration-300" 
           />
         </div>
 
@@ -92,7 +92,7 @@
         <div class="pt-6">
           <button 
             type="submit" 
-            class="w-full bg-blue-custom text-white font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity duration-300 text-lg"
+            class="w-full bg-green-custom text-white font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity duration-300 text-lg"
           >
             Enviar
           </button>

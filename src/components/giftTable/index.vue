@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-hidden bg-beige pt-12 sm:pt-12 text-center">
+  <div class="overflow-hidden bg-beige pt-16 sm:pt-16 text-center">
     <div 
       class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" 
       aria-hidden="true"
@@ -10,32 +10,32 @@
       <div class="aspect-1097/845 w-[68.5625rem] opacity-20" />
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <h2 class="text-3xl text-brown-custom sm:text-7xl">
+      <h2 class="text-3xl text-green-custom sm:text-7xl">
             Mesa de regalos
       </h2>
-      <div class="mx-auto my-8 max-w-2xl">
-            <p class="text-xl mb-8 text-brown-custom sm:text-3xl text-beige">
+      <div class="bg-green-custom mx-auto my-10 max-w-2xl bg-beige rounded-lg shadow-2xl max-w-lg w-full p-8 text-center">
+            <p class="text-xl mb-8 text-beige sm:text-3xl text-beige">
                 Mesa de regalos Liverpool #51619150
             </p>
             <a 
                 href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51619150" 
                 target="_blank"
-                class="rounded-md border border-brown-custom px-5 py-2.5 text-md font-semibold text-brown-custom shadow-xs hover:border-white focus-visible:outline-2   focus-visible:outline-offset-2 focus-visible:outline-white"
+                class="rounded-md border border-beige px-5 py-2.5 text-md font-semibold text-beige shadow-xs hover:border-white focus-visible:outline-2   focus-visible:outline-offset-2 focus-visible:outline-white"
             >
                 Ir a la mesa
             </a>
         </div>
-        <div class="mx-auto mt-10 max-w-2xl">
-            <h1 class="font-bold mb-5 text-3xl text-pretty text-brown-custom">
+        <div class="bg-green-custom mx-auto my-10 max-w-2xl bg-beige rounded-lg shadow-2xl max-w-lg w-full p-8 text-center">
+            <h1 class="font-bold mb-5 text-3xl text-pretty text-beige">
                 Cuenta para regalos
             </h1>
-             <h1 class="text-xl mb-4 text-brown-custom sm:text-3xl text-beige">
+             <h1 class="text-xl mb-4 text-beige sm:text-3xl text-beige">
                 Gaddiel Alejandro Patino Morfin
             </h1>
-            <h1 class="text-xl mb-4 text-brown-custom sm:text-3xl text-beige">
+            <h1 class="text-xl mb-4 text-beige sm:text-3xl text-beige">
                 Clabe: 012 180 01544721817 0
             </h1>
-            <h1 class="text-xl mb-4 text-brown-custom sm:text-3xl text-beige">
+            <h1 class="text-xl mb-4 text-beige sm:text-3xl text-beige">
                 BBVA
             </h1>
         </div> 

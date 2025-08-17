@@ -16,7 +16,7 @@
     </div>
     <div class="justify-self-center mt-8">
       <img 
-        class="sm:w-32 w-32" 
+        class="sm:w-32 w-32 mx-auto" 
         src="/public/flowerRight.svg" 
         alt="Flor derecha"
       >
@@ -34,7 +34,7 @@
     </div>
     <div class="justify-self-center mt-8">
       <img 
-        class="sm:w-32 w-32" 
+        class="sm:w-32 w-32 mx-auto" 
         src="/public/flowerRight.svg" 
         alt="Flor derecha"
       >
@@ -52,7 +52,7 @@
     </div>
     <div class="justify-self-center mt-8">
       <img 
-        class="sm:w-32 w-32" 
+        class="sm:w-32 w-32 mx-auto" 
         src="/public/flowerRight.svg" 
         alt="Flor derecha"
       >
@@ -101,7 +101,7 @@
     </div>
     <div class="justify-self-center mt-8">
       <img 
-        class="sm:w-32 w-32 bg-beige" 
+        class="sm:w-32 w-32 bg-beige mx-auto" 
         src="/HaciendaLg.svg" 
         alt="Flor derecha"
       >

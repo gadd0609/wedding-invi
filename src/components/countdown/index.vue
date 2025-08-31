@@ -1,10 +1,10 @@
 <template>
   <div class="bg-brown-custom flex items-center justify-center rounded-t-3xl">
-    <div class="mx-auto max-w-4xl px-8 py-16 sm:px-8 sm:py-24 lg:px-8">
+    <div class="mx-auto max-w-4xl px-8 pt-16 sm:px-8 sm:pt-24 lg:px-8">
 
       <div class="text-center mb-12">
-        <h1 class="text-5xl sm:text-6xl font-bold text-beige mb-4 drop-shadow-lg">
-          ¡Nos Casamos!
+        <h1 class="text-3xl sm:text-6xl font-bold text-beige mb-4 drop-shadow-lg">
+          ¡NOS CASAMOS!
         </h1>
         <p class="text-xl sm:text-2xl text-beige font-medium">
           15 de Noviembre, 2025

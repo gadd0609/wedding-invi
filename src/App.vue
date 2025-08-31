@@ -6,7 +6,7 @@
   <div class="bg-green-custom">
     <countdown-component/>
   </div>
-  <div class="bg-brown-custom p-9 sm:py-16">
+  <div class="bg-brown-custom p-8 sm:py-16 shadow-xl">
     <img 
       src="/photos/DSC03269.jpg" 
       alt="photo.alt"
@@ -14,7 +14,7 @@
     />
   </div>
     <img 
-      class="w-40 sm:w-52 mt-1 absolute left-0 right-0" 
+      class="w-16 sm:w-32 absolute left-0 right-0" 
       src="/public/logoMulticolor.svg" 
       alt="Logo"
       style="margin-left: auto; margin-right: auto; align-self: center;"

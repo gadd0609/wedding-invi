@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-hidden bg-beige pt-16 sm:pt-16 text-center">
+  <div class="overflow-hidden bg-beige sm:pt-16 text-center">
     <div 
       class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" 
       aria-hidden="true"
@@ -11,7 +11,7 @@
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <h2 class="text-3xl text-green-custom sm:text-7xl">
-        Mesa de regalos
+        MESA DE REGALOS
       </h2>
       <blockquote class="relative border-s-4 border-gray-200 ps-4 sm:ps-6 dark:border-neutral-700">
         <p class="text-xl my-8 text-beige sm:text-3xl text-green-custom">
@@ -48,11 +48,11 @@
               </h1>
           </div> 
       </div>
-    <div class="py-10 flex justify-center items-center">
+    <div class="pb-8 flex justify-center items-center">
       <img 
         src="/flowers1.png" 
         alt="photo.alt"
-        class="w-72 sm:w-96 mx-auto my-4"
+        class="w-40 sm:w-96 mx-auto my-4"
       />
     </div>
     <div class="max-w-4xl mx-auto sm:py-16">

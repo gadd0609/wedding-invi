@@ -52,7 +52,7 @@
               <input 
                 id="yes"
                 type="radio" 
-                name="yes" 
+                name="attendance" 
                 value="yes" 
                 required
                 class="w-5 h-5 text-green-custom bg-transparent border-2 border-green-custom focus:ring-green-custom focus:ring-2 mr-3" 
@@ -63,7 +63,7 @@
               <input 
                 id="no"
                 type="radio" 
-                name="no" 
+                name="attendance" 
                 value="no"
                 class="w-5 h-5 text-green-custom bg-transparent border-2 border-green-custom focus:ring-green-custom focus:ring-2 mr-3" 
               />
@@ -76,12 +76,22 @@
             Número de invitados
           </label>
           <input 
-            type="text" 
+            type="number" 
             name="guests" 
             id="guests" 
+            required
+            min="1"
+            max="4"
+            v-model.number="guests"
             autocomplete="family-name"
             class="w-full border-b-2 border-green-custom bg-transparent pb-2 focus:border-brown-custom focus:outline-none transition-colors duration-300" 
           />
+          <h1
+            v-if="guests !== null && (guests < 1 || guests > 4)" 
+            class="text-red-600 text-sm mt-2"
+          >
+            Solo puedes ingresar entre 1 y 4 invitados.
+        </h1>
         </div>
         <div class="pt-6">
           <button 
@@ -98,7 +108,12 @@
 
 <script>
 export default {
-  name: 'FormComponent'
+  name: 'FormComponent',
+  data() {
+    return {
+      guests: null
+    }
+  }
 }
 </script>
 

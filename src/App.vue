@@ -6,7 +6,7 @@
   <div class="bg-green-custom">
     <countdown-component/>
   </div>
-  <div class="bg-brown-custom p-8 sm:py-16 shadow-xl">
+  <div class="bg-brown-custom px-8 py-16 sm:py-16 shadow-xl">
     <img 
       src="/photos/DSC03269.jpg" 
       alt="photo.alt"

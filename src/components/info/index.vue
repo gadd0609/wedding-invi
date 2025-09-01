@@ -150,7 +150,7 @@
                     class="rounded-lg w-40 h-56 object-cover border border-brown-custom" 
                   />
                   <img 
-                    src="/gardenPartyFemale.jpeg" 
+                    src="/gardenPartyFemale.jpg" 
                     alt="Ejemplo 2" 
                     class="rounded-lg w-40 h-56 object-cover border border-brown-custom" 
                   />

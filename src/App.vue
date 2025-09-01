@@ -6,12 +6,6 @@
   <div class="bg-green-custom">
     <countdown-component/>
   </div>
-    <img 
-      class="w-16 sm:w-32 absolute left-0 right-0" 
-      src="/public/logoMulticolor.svg" 
-      alt="Logo"
-      style="margin-left: auto; margin-right: auto; align-self: center;"
-    >
   <div class="bg-brown-custom">
     <info-component/>
   </div>

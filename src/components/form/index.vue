@@ -23,81 +23,54 @@
         class="space-y-6"
       >
         <input type="hidden" name="form-name" value="rsvp" />
-        
         <!-- Honeypot field -->
         <div class="hidden">
           <input name="bot-field" />
         </div>
 
-        <!-- Name -->
+        <!-- Nombres de invitados -->
         <div class="text-left">
           <label class="block text-gray-700 font-semibold mb-3">
-            Nombre completo
+            Nombre(s) de invitado(s)
           </label>
-          <input 
-            type="text" 
-            name="name" 
-            id="name" 
-            required
-            autocomplete="given-name"
-            class="w-full border-b-2 border-green-custom bg-transparent pb-2 focus:border-brown-custom focus:outline-none transition-colors duration-300" 
-          />
-        </div>
-        <div class="text-left">
-          <label class="block text-gray-700 font-semibold mb-3">
-            ¿Podrás asistir? 
-          </label>
-          <div class="flex gap-8">
-            <label class="flex items-center cursor-pointer">
-              <input 
-                id="yes"
-                type="radio" 
-                name="attendance" 
-                value="yes" 
+          <div class="space-y-3">
+            <div v-for="(guest, idx) in guests" :key="idx" class="flex items-center gap-2">
+              <input
+                type="text" 
+                id="name" 
+                :name="`guest${idx+1}`"
                 required
-                class="w-5 h-5 text-green-custom bg-transparent border-2 border-green-custom focus:ring-green-custom focus:ring-2 mr-3" 
+                v-model="guests[idx]"
+                :placeholder="`Nombre del invitado ${idx+1}`"
+                class="w-full border-b-2 border-green-custom bg-transparent pb-2 focus:border-brown-custom focus:outline-none transition-colors duration-300"
+                maxlength="60"
               />
-              <span class="text-gray-700 text-lg">Sí</span>
-            </label>
-            <label class="flex items-center cursor-pointer">
-              <input 
-                id="no"
-                type="radio" 
-                name="attendance" 
-                value="no"
-                class="w-5 h-5 text-green-custom bg-transparent border-2 border-green-custom focus:ring-green-custom focus:ring-2 mr-3" 
-              />
-              <span class="text-gray-700 text-lg">No</span>
-            </label>
+              <button
+                v-if="guests.length > 1"
+                type="button"
+                @click="removeGuest(idx)"
+                class="text-red-400 hover:text-red-600 text-xl font-bold px-2"
+                aria-label="Eliminar invitado"
+                title="Eliminar invitado"
+              >×</button>
+            </div>
           </div>
-        </div>
-        <div class="text-left">
-          <label class="block text-gray-700 font-semibold mb-3">
-            Número de invitados
-          </label>
-          <input 
-            type="number" 
-            name="guests" 
-            id="guests" 
-            required
-            min="1"
-            max="4"
-            v-model.number="guests"
-            autocomplete="family-name"
-            class="w-full border-b-2 border-green-custom bg-transparent pb-2 focus:border-brown-custom focus:outline-none transition-colors duration-300" 
-          />
-          <h1
-            v-if="guests !== null && (guests < 1 || guests > 4)" 
-            class="text-red-600 text-sm mt-2"
+          <button
+            v-if="guests.length < 5"
+            type="button"
+            @click="addGuest"
+            class="text-green-custom text-sm mt-2 hover:underline focus:outline-none"
           >
-            Solo puedes ingresar entre 1 y 4 invitados.
-        </h1>
+            + Agregar otro invitado
+          </button>
         </div>
+
         <div>
           <h1 class="text-sm text-green-custom font-bold">
             Por favor confirmar el nombre de asistentes colocando el nombre de cada uno de ellos, a más tardar el 30 de septiembre
           </h1>
         </div>
+
         <div class="pt-6">
           <button 
             type="submit" 
@@ -116,44 +89,20 @@ export default {
   name: 'FormComponent',
   data() {
     return {
-      guests: null
+      guests: ['']
+    }
+  },
+  methods: {
+    addGuest() {
+      if (this.guests.length < 5) {
+        this.guests.push('');
+      }
+    },
+    removeGuest(idx) {
+      if (this.guests.length > 1) {
+        this.guests.splice(idx, 1);
+      }
     }
   }
 }
 </script>
-
-<style scoped>
-input[type="radio"] {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
-input[type="radio"]:checked {
-  background-color: var(--green-custom);
-  border-color: (--green-custom);
-  position: relative;
-}
-
-input[type="radio"]:checked::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: white;
-}
-
-/* Input focus effects */
-input:focus {
-  outline: none;
-}
-
-/* Smooth transitions */
-* {
-  transition: all 0.3s ease;
-}
-</style>

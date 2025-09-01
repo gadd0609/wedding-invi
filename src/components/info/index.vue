@@ -94,7 +94,7 @@
            UBICACIÓN
           </h1>
           <h1 class="text-xl mb-8 text-brown-custom sm:text-3xl text-beige text-center">
-           Hacienda de chiapa
+           Hacienda de Chiapa
           </h1>
           <h1 class="text-center">
             <a

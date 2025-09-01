@@ -1,8 +1,6 @@
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 
-export default function useCarousel() {
-  const currentIndex = ref(0)
-  
+export default function useFiances() {
   const photos = ref([
     { src: '/photos/DSC03150.jpg', alt: 'Foto de los novios 1' },
     { src: '/photos/DSC03285.jpg', alt: 'Foto de los novios 2' },
@@ -12,27 +10,24 @@ export default function useCarousel() {
     { src: '/photos/DSC03107.jpg', alt: 'Foto de los novios 6' },
   ])
 
-  const nextSlide = () => {
-    if (currentIndex.value < photos.value.length - 1) {
-      currentIndex.value++
-    }
-  }
+  // Modal logic
+  const showDialog = ref(false)
+  const selectedPhoto = ref({})
 
-  const prevSlide = () => {
-    if (currentIndex.value > 0) {
-      currentIndex.value--
-    }
+  function openDialog(photo) {
+    selectedPhoto.value = photo
+    showDialog.value = true
   }
-
-  const goToSlide = (index) => {
-    currentIndex.value = index
+  function closeDialog() {
+    showDialog.value = false
+    selectedPhoto.value = {}
   }
 
   return {
-    currentIndex,
     photos,
-    nextSlide,
-    prevSlide,
-    goToSlide
+    showDialog,
+    selectedPhoto,
+    openDialog,
+    closeDialog
   }
 }

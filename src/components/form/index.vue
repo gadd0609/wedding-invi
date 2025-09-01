@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-green-custom to-gray-800 flex items-center justify-center p-8">
+  <div class="min-h-screen bg-green-custom to-gray-800 flex items-center justify-center p-8 sm:rounded-t-3xl">
     <div class="bg-beige rounded-lg shadow-2xl max-w-lg w-full p-8 text-center">
       <!-- Header -->
       <div class="mb-8">

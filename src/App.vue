@@ -10,12 +10,14 @@
     <info-component/>
   </div>
   <gift-table-component/>
-  <form-component
-    name="rsvp"
-    method="post"
-    data-netlify="true"
-    data-netlify-honeypot="bot-field"
-  />
+  <div class="sm:bg-beige">
+    <form-component
+      name="rsvp"
+      method="post"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    />
+  </div>
   <div class="bg-green-custom">
     <fiances-photos/>
   </div>

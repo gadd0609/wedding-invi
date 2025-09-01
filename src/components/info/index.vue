@@ -158,11 +158,15 @@
               </div>
             </div>
           </transition>
-          <div class=" mt-8">
+          <div 
+            class="mt-8"
+            style="place-items: center;"
+          >
             <img 
               class="sm:w-32 w-32 bg-beige" 
               src="/haciendaLogo.svg" 
               alt="Hacienda Logo"
+              
             >
           </div>
         </div>

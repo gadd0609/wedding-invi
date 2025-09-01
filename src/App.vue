@@ -6,13 +6,6 @@
   <div class="bg-green-custom">
     <countdown-component/>
   </div>
-  <div class="bg-brown-custom px-8 py-16 sm:py-16 shadow-xl">
-    <img 
-      src="/photos/DSC03269.jpg" 
-      alt="photo.alt"
-      class="w-full object-cover overflow-hidden rounded-2xl max-w-4xl mx-auto"
-    />
-  </div>
     <img 
       class="w-16 sm:w-32 absolute left-0 right-0" 
       src="/public/logoMulticolor.svg" 

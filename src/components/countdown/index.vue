@@ -80,6 +80,13 @@
         </div>
       </div>
 
+      <div class="bg-brown-custom py-9 sm:py-16">
+        <img 
+          src="/photos/DSC03269.jpg" 
+          alt="photo.alt"
+          class="w-full object-cover overflow-hidden rounded-2xl max-w-4xl mx-auto"
+        />
+      </div>
     </div>
   </div>
 </template>

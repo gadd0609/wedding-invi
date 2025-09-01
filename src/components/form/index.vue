@@ -93,6 +93,11 @@
             Solo puedes ingresar entre 1 y 4 invitados.
         </h1>
         </div>
+        <div>
+          <h1 class="text-sm text-green-custom font-bold">
+            Por favor confirmar el nombre de asistentes colocando el nombre de cada uno de ellos, a más tardar el 30 de septiembre
+          </h1>
+        </div>
         <div class="pt-6">
           <button 
             type="submit" 
@@ -118,7 +123,6 @@ export default {
 </script>
 
 <style scoped>
-/* Custom radio button styling */
 input[type="radio"] {
   appearance: none;
   -webkit-appearance: none;

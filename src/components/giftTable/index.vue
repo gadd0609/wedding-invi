@@ -16,8 +16,7 @@
       <blockquote class="relative border-s-4 border-gray-200 ps-4 sm:ps-6 dark:border-neutral-700">
         <p class="text-xl my-8 text-beige sm:text-3xl text-green-custom">
           <em>
-              El mayor obsequio para nosotros es contar con su compañía en este día tan especial.
-              Si además desean bendecirnos con un detalle, ponemos a su disposición nuestra mesa de regalos o, si lo prefieren con un depósito en la siguiente cuenta
+              El mayor obsequio para nosotros es contar con su compañía en este día tan especial. Si, además, desean bendecirnos con un detalle, ponemos a su disposición nuestra mesa de regalos, ó si lo prefieren, con un depósito en la siguiente cuenta:
           </em>
         </p>
       </blockquote>

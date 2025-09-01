@@ -2,7 +2,7 @@
   <div class="bg-brown-custom rounded-t-2xl min-h-screen w-full flex flex-col justify-center">
     <div class="mx-auto max-w-2xl px-8 py-16 sm:px-8 sm:py-24 lg:max-w-7xl lg:px-8">
       <h2 class="text-3xl sm:text-6xl text-center font-bold text-beige mb-4 drop-shadow-lg">
-        LOS NOVIOS
+        GADDIEL & FERNANDA
       </h2>
       <div class="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
         <div

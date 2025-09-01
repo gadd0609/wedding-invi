@@ -36,9 +36,8 @@
           <div class="space-y-3">
             <div v-for="(guest, idx) in guests" :key="idx" class="flex items-center gap-2">
               <input
-                type="text" 
-                id="name" 
-                :name="`guest${idx+1}`"
+                type="text"
+                name="name"
                 required
                 v-model="guests[idx]"
                 :placeholder="`Nombre del invitado ${idx+1}`"

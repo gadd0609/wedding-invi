@@ -158,6 +158,14 @@
               </div>
             </div>
           </transition>
+          <div class="mt-4 text-center">
+            <h1 class="text-lg text-green-custom sm:text-3xl text-beige text-center">
+              No niños
+            </h1>
+            <h1 class="text-lg text-green-custom sm:text-3xl text-beige text-center">
+              No alcohol
+            </h1>
+          </div>
           <div 
             class="mt-8"
             style="place-items: center;"
